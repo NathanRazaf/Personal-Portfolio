@@ -1,0 +1,19 @@
+@import "header.scss";
+@import "presentation.scss";
+@import "projects.scss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #1B1726;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

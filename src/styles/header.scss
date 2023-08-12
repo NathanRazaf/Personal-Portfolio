@@ -1,0 +1,33 @@
+header {
+    background-color: #24153B;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.28);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  nav {
+    display: flex;
+    align-items: center;
+    ul {
+      display: flex;
+      list-style: none;
+      li {
+        margin-left: 20px;
+        a {
+          text-decoration: none;
+          color: #DEDEDEFF;
+          font-weight: 600;
+          font-size: 14px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
