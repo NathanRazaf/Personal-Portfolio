@@ -43,9 +43,26 @@
         padding: 20px;
       }
         .right {
+          display: flex;
+          align-items: center;
+          justify-content: center;
         img {
-            max-width: 300px;
+            width: 100%;
+
         }
         }
     }
+}
+
+@media (max-width: 1200px) {
+  .contacts {
+    .left {
+      padding: 30px;
+    }
+    .right {
+      img {
+        width: 90%;
+      }
+    }
+  }
 }

@@ -42,3 +42,15 @@
         width: 100%;
     }
 }
+
+@media (max-width: 1200px) {
+  .presentation {
+    .left {
+      padding-left: 30px;
+    }
+    img {
+      max-height: 400px;
+      width: 100%;
+    }
+  }
+}

@@ -44,3 +44,14 @@ header {
       }
     }
 }
+
+@media (max-width: 1200px) {
+  header {
+    h1 {
+        padding-left: 20px;
+    }
+    nav {
+      padding-right: 20px;
+    }
+  }
+}
