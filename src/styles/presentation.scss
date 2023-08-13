@@ -26,3 +26,19 @@
   }
   margin-bottom: 50px;
 }
+
+@media (max-width: 600px) {
+    .presentation {
+        flex-direction: column;
+      .left {
+        padding: 20px;
+        text-align: center;
+      }
+        img {
+        max-height: 300px;
+        }
+    }
+    .bio {
+        width: 100%;
+    }
+}

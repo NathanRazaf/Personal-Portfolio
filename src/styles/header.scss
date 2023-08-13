@@ -31,3 +31,16 @@ header {
     }
   }
 }
+
+@media (max-width: 600px) {
+    header {
+      h1 {
+        padding-left: 20px;
+        font-size: 18px;
+      }
+      nav {
+        padding-right: 20px;
+        font-size: 12px;
+      }
+    }
+}
