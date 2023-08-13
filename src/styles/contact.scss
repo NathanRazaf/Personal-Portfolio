@@ -1,0 +1,37 @@
+.contacts {
+  background-color: #0A0416;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  .contact {
+    display: flex;
+    align-items: center;
+    img {
+      width: 20px;
+      height: 20px;
+      margin: 10px 10px 10px 0;
+    }
+  }
+  .right {
+    img {
+      max-width: 500px;
+    }
+  }
+  .contact-links {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+        width: 30px;
+        height: 30px;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
