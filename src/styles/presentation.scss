@@ -27,6 +27,12 @@
   margin-bottom: 50px;
 }
 
+.bio-p {
+  letter-spacing: 1px;
+    line-height: 1.5;
+  color: #dadada;
+}
+
 @media (max-width: 600px) {
     .presentation {
         flex-direction: column;
@@ -41,6 +47,11 @@
     .bio {
         width: 100%;
     }
+  .bio-p {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 1200px) {
