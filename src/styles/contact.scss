@@ -27,8 +27,8 @@
     align-items: center;
     gap: 10px;
     img {
-        width: 30px;
-        height: 30px;
+      width: 30px;
+      height: 30px;
       &:hover {
         transform: scale(1.1);
       }
@@ -37,21 +37,21 @@
 }
 
 @media (max-width: 600px) {
-    .contacts {
-        flex-direction: column;
-      .left {
-        padding: 20px;
-      }
-        .right {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        img {
-            width: 100%;
-
-        }
-        }
+  .contacts {
+    flex-direction: column;
+    .left {
+      padding: 20px;
     }
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+
+      }
+    }
+  }
 }
 
 @media (max-width: 1200px) {
