@@ -29,24 +29,24 @@
 
 .bio-p {
   letter-spacing: 1px;
-    line-height: 1.5;
+  line-height: 1.5;
   color: #dadada;
 }
 
 @media (max-width: 600px) {
-    .presentation {
-        flex-direction: column;
-      .left {
-        padding: 20px;
-        text-align: center;
-      }
-        img {
-        max-height: 300px;
-        }
+  .presentation {
+    flex-direction: column;
+    .left {
+      padding: 20px;
+      text-align: center;
     }
-    .bio {
-        width: 100%;
+    img {
+      max-height: 300px;
     }
+  }
+  .bio {
+    width: 100%;
+  }
   .bio-p {
     font-size: 14px;
     margin-left: 20px;
